@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tictactoe/screens/SplashScreen.dart';
 import 'package:tictactoe/screens/game.dart';
 
 void main() {
@@ -12,9 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: GameScreen(),
+      home: SplashScreen(),
     );
   }
 }
-
-
